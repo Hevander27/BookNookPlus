@@ -7,10 +7,10 @@ const headerLeft = document.createElement('div')
 headerLeft.className = 'header-left'
 
 const headerLogo = document.createElement('img')
-headerLogo.src = '/logo.png'
+headerLogo.src = '/books.png'
 
 const headerTitle = document.createElement('h1')
-headerTitle.textContent = 'UnEarthed'
+headerTitle.textContent = 'BookNook'
 
 headerLeft.appendChild(headerLogo)
 headerLeft.appendChild(headerTitle)

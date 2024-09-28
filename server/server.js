@@ -14,7 +14,7 @@ app.use('/gifts', giftsRouter)
 
 // Define root route
 app.get('/', (req, res) => {
-  res.status(200).send('<h1 style="text-align: center; margin-top: 50px;">UnEarthed API</h1>')
+  res.status(200).send('<h1 style="text-align: center; margin-top: 50px;">BookNook API</h1>')
 })
 
 // Start the server

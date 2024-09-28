@@ -29,11 +29,12 @@ const renderGifts = async () => {
 			audience.textContent = 'Great For: ' + gift.audience
 			bottomContainer.appendChild(audience)
 			
-			const link = document.createElement('a')
-			link.textContent = 'Read More >'
-			link.setAttribute('role', 'button')
-			link.href = `/gifts/${gift.id}`
-			bottomContainer.appendChild(link)
+			const link = document.createElement('a');
+			link.textContent = 'Read More >';
+			link.setAttribute('role', 'button');
+			link.href = `/gifts/${gift.id}?id=${gift.id}`; // Pass the gift ID as a URL parameter
+			bottomContainer.appendChild(link);
+			
 			
 			card.appendChild(topContainer)
 			card.appendChild(bottomContainer)
