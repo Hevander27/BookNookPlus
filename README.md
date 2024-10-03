@@ -30,6 +30,13 @@ Here's a walkthrough of implemented required features:
 
 <img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
+
+## Database Screenshot
+![Screenshot 2024-10-03 at 3 53 08 AM](https://github.com/user-attachments/assets/811c9770-2f04-43f4-b01b-ad3fba5657a3)
+![Screenshot 2024-10-03 at 2 52 49 AM](https://github.com/user-attachments/assets/a65bf7ff-bb20-416a-ac3e-bcff37f56be3)
+
+
+
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with ...  GIF tool here
 <!-- Recommended tools:
