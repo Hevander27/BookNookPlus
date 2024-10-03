@@ -28,10 +28,13 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented required features:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+![Screen%20Recording%20-%20Oct%203%2C%202024](https://github.com/user-attachments/assets/1b5c8daf-a197-47e5-be6f-97843c2a31d3)
 
 
 ## Database Screenshot
+
+Snapshots of the postgres database:
+
 ![Screenshot 2024-10-03 at 3 53 08 AM](https://github.com/user-attachments/assets/811c9770-2f04-43f4-b01b-ad3fba5657a3)
 ![Screenshot 2024-10-03 at 2 52 49 AM](https://github.com/user-attachments/assets/a65bf7ff-bb20-416a-ac3e-bcff37f56be3)
 
