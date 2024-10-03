@@ -1,10 +1,10 @@
-# WEB103 Project 2 - *Name of App Here*
+# WEB103 Project 2 - *BookNookPlus*
 
-Submitted by: **Your name here**
+Submitted by: **Hevander Da Costa**
 
-About this web app: **App description here**
+About this web app: **Online pdf book repository and link for purchase**
 
-Time spent: **X** hours
+Time spent: **9** hours
 
 ## Required Features
 
