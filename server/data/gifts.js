@@ -11,7 +11,7 @@ const giftData = [
   },
   {
       "id": 2,
-      "name": "Head First Design Patterns: A Brain-Friendly Guide",
+      "name": "Head First Design Patterns",
       "pricePoint": "$40.00",
       "audience": "Green Thumbs",
       "image":"https://tinyurl.com/27ebhvfj",

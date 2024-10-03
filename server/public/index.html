@@ -1,8 +1,52 @@
+<!--
+ * File: index.html
+ * Description: This is the main HTML file for the "BookNook" website. It defines the structure of the webpage, including references to external stylesheets and scripts. The page includes a header section and a main content area where dynamic content is rendered using JavaScript.
+ * 
+ * Detailed Functionality:
+ * - **Document Type Declaration**: 
+ *   - `<!DOCTYPE html>` declares this as an HTML5 document, ensuring modern HTML standards are applied.
+ * 
+ * - **Head Section**:
+ *   - **Title**: The title of the webpage is set to "BookNook", which will appear on the browser tab.
+ *   - **Favicon**: The `<link>` tag sets the favicon (small icon in the browser tab) to an image located at `/logo.png`.
+ *   - **Stylesheet**: The webpage is linked to an external stylesheet `style.css`, which defines the visual appearance of elements like layout, colors, fonts, etc.
+ *   - **Scripts**: 
+ *     - The `header.js` script is loaded to dynamically create the header section of the webpage. It runs after the DOM is fully loaded due to the `defer` attribute.
+ *     - The `gifts.js` script is also loaded after the page is rendered, responsible for fetching and displaying gift items dynamically within the `<main>` content area.
+ * 
+ * - **Body Section**:
+ *   - **Header**: 
+ *     - An empty `<header>` element acts as a placeholder, which will be dynamically populated by the `header.js` script.
+ *     - This script inserts a logo, title, and navigation button into the header when the page loads.
+ *   - **Main**:
+ *     - The `<main>` element, with the ID `main-content`, is where the main content (e.g., gift items) will be displayed.
+ *     - The `gifts.js` script fetches gift data from an API and dynamically populates this section with gift cards.
+ * 
+ * Interaction with Other Files:
+ * - **header.js**: 
+ *     - Dynamically constructs the header by adding a logo, title ("BookNook"), and a "Home" button. It modifies the empty `<header>` element defined in this HTML file.
+ * - **gifts.js**: 
+ *     - Fetches gift data from an external API and generates a list of gift cards. These cards are added to the `<main>` element with the ID `main-content` defined in this HTML file.
+ *     - The script adds various elements like images, text, and buttons related to each gift into the main section.
+ * - **style.css**: 
+ *     - The `style.css` file is responsible for styling the entire page, including the header, main content, gift cards, and other components added by the JavaScript files. It ensures a cohesive visual layout.
+ * 
+ * References:
+ * - HTML: https://developer.mozilla.org/en-US/docs/Web/HTML
+ * - CSS: https://developer.mozilla.org/en-US/docs/Web/CSS
+ * - JavaScript: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+ * - Favicon: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/link
+ * 
+ * Author: [Your Name]
+ * Date: [Date]
+-->
+
+
 <!DOCTYPE html>
 
   <head>
     <title>BookNook</title>
-    <link rel="icon" type="image/x-icon" href="/logo.png">
+    <link rel="icon" type="image/x-icon" href="/books.png">
     <script defer src="/scripts/header.js"></script>
     <script defer src="/scripts/gifts.js"></script>
     <link rel="stylesheet" crossorigin href="/assets/index-D8I0d9Fw.css">
